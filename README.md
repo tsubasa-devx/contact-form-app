@@ -63,7 +63,9 @@ cd contact-form-app
 
 ### ② 依存関係インストール
 
+```
 npm install
+```
 
 ### ③ .env 作成
 
@@ -76,7 +78,9 @@ GMAIL_PASS=your-app-password
 
 ### ④ サーバー起動
 
+```
 npm start
+```
 
 ### ⑤ ブラウザでアクセス
 
