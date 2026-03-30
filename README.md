@@ -36,6 +36,7 @@ Node.js / Express を使って作成したお問い合わせフォームです�
 
 ## 📁 フォルダ構成
 
+```
 contact-form-app/
 ├── public/
 │ ├── index.html
@@ -47,6 +48,7 @@ contact-form-app/
 ├── .gitignore
 ├── index.js
 └── package.json
+```
 
 ---
 
