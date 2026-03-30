@@ -48,7 +48,8 @@ contact-form-app/
 │ ├── index.html
 │ ├── confirm.html
 │ ├── thanks.html
-│ └── app.js
+│ ├── app.js
+│ └── style.css
 ├── .env
 ├── .env.example
 ├── .gitignore
