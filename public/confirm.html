@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>確認画面</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>確認画面</h1>
+
+    <p id="name"></p>
+    <p id="email"></p>
+    <p id="message"></p>
+
+    <form action="/thanks" method="post">
+      <input type="hidden" name="name" id="hiddenName" />
+      <input type="hidden" name="email" id="hiddenEmail" />
+      <input type="hidden" name="message" id="hiddenMessage" />
+
+      <button type="submit">送信する</button>
+    </form>
+
+    <button type="button" onclick="history.back()">戻る</button>
+  </body>
+</html>
